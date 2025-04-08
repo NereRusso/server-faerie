@@ -18,7 +18,7 @@ app.get("/", (req, res) => {
     res.send("Soy el server :)")
 });
 
-app.post("/create_preference", async (req, res) => {
+app.post("/create-preference", async (req, res) => {
     try {
         const body = {
             items: [{
